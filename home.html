@@ -6,11 +6,13 @@
     <title>La RicuraPTY</title>
 </head>
 <body style="background-color: rgb(203, 240, 253); margin: 0;">
-    <nav style="background-color: white; padding: 10px; width: 100%; height: 50px; display: flex; justify-content: center; align-items: center;">
-        <a href="home.html" style="color: black; text-decoration: none; margin-right: 400px; font-size: 24px;">INICIO</a>
-        <a href="receta_desayuno.html" style="color: black; text-decoration: none; margin-right: 400px; font-size: 24px;">DESAYUNO</a>
-        <a href="receta_almuerzo.html" style="color: black; text-decoration: none; margin-right: 400px; font-size: 24px;">AlMUERZO</a>
-        <a href="receta_cena.html" style="color: black; text-decoration: none; left: 400px; font-size: 24px;">CENA</a>
+    <nav>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; background-color: #fff;">
+            <a href="home.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">INICIO</a>
+            <a href="receta_desayuno.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">DESAYUNO</a>
+            <a href="receta_almuerzo.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">ALMUERZO</a>
+            <a href="receta_cena.html" style="text-align: center; padding: 25px; text-decoration: none; color: black; font-size: 24px;">CENA</a>
+        </div>
     </nav>
     <section style="text-align: center;">
         <h1 style="font-size: 50px;">Recetas de Cocina</h1>
@@ -29,7 +31,9 @@
                         <p>Fácil</p>
                     </div>
                     <div style="width: 50%; float: right; margin-left: 50px;">
-                        <button>Ver más</button>
+                        <a href="receta_desayuno.html">
+                            <button>Ver más</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -46,7 +50,9 @@
                         <p>Difícil</p>
                     </div>
                     <div style="width: 50%; float: right; margin-left: 50px;">
-                        <button>Ver más</button>
+                        <a href="receta_almuerzo.html">
+                            <button>Ver más</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -63,7 +69,9 @@
                         <p style="margin: 0;">Medio</p>
                     </div>
                     <div style="width: 50%; float: right; margin-left: 50px;">
-                        <button>Ver más</button>
+                        <a href="receta_cena.html">
+                            <button>Ver más</button>
+                        </a>
                     </div>
                 </div>
             </div>
